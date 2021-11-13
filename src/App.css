@@ -1,0 +1,126 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+header{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background: #644464;
+  background: -webkit-linear-gradient(to right, #2a0045, #6441a5);
+  background: linear-gradient(to right, #2e0545, #5441a5);
+
+}
+
+header > img{
+  height: 60%;
+  margin-left: 10%
+}
+
+header > p{
+  font-family: monospace;
+  color: whitesmoke;
+  font-size: 50px;
+  margin-left: 60px;
+}
+
+.meme{
+  position: relative;
+  width: 50%;
+  margin: auto;
+}
+
+.meme > img{
+  width: 100%;
+}
+
+.meme > h2{
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transform: translateX(-3);
+}
+
+.meme > .bottom{
+  bottom: 0%;
+}
+
+.meme > .top{
+  top: 0%;
+} 
+
+.meme-form > button{
+  font-family: monospace;
+  font-size: 23px;
+  letter-spacing: 1.5px;
+  color: white;
+  background: #6441A5;
+}
+
+.meme-form > ::-webkit-input-placeholder{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  text-align: end;
+}
+
+.meme-form > :-ms-input-placeholder{
+  font-family: monospace;
+  font-size: 25px;
+  text-align: end;
+}
+
+.meme-form > :-ms-input-placeholder{
+  font-family: monospace;
+  font-size: 25px;
+  text-align: end;
+}
+
+.meme-form > :-ms-input-placeholder{
+  font-family: monospace;
+  font-size: 25px;
+  text-align: end;
+}
+
+
+
+
